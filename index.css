@@ -1,3 +1,20 @@
-#footer-margin {
-    height: 100px;
+
+nav { 
+    position: fixed;
+    height: 80px;
+    font-size: 20px;
+}
+
+video { 
+    width: 100%;
+}
+
+.myNameHeading { 
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    color: white;
+    font-size: 140px; 
+    text-shadow: 3px 3px 3px darkgrey;
+    font-family: 'Playfair Display', serif;
 }
