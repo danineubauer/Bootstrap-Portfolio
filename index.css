@@ -1,13 +1,14 @@
 
 nav { 
     position: fixed;
-    height: 80px;
     font-size: 20px;
+    margin-bottom: 30px;
 }
 
-video { 
-    width: 100%;
-}
+ .row { 
+     margin: 30px;
+ }
+
 
 .myNameHeading { 
     position: absolute;
@@ -17,4 +18,8 @@ video {
     font-size: 140px; 
     text-shadow: 3px 3px 3px darkgrey;
     font-family: 'Playfair Display', serif;
+}
+
+.fixed-bottom { 
+    margin: 0;
 }
