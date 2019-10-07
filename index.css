@@ -37,3 +37,7 @@ a:hover {
 .copyright:hover {
     opacity: 1;
 }
+
+#btn1:hover {
+    opacity: .5;
+}
