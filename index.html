@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>About Me</title>
+
   <!--Bootstrap CSS Link-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -18,30 +19,34 @@
 
 
 
+<!--NAV BAR-->
+
 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top d-flex justify-content-center" id="navbartop">
 
   <ul class="navbar-nav">
     <li class="nav-item active">
-      <a class="nav-link" href="#">About Me<span class="sr-only">(current)</span></a>
+      <a class="nav-link" href="index.html">About Me<span class="sr-only">(current)</span></a>
     </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Portfolio</a>
+    <li class="nav-item active">
+      <a class="nav-link" href="Portfolio.html">Portfolio</a>
     </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Contact</a>
+    <li class="nav-item active">
+      <a class="nav-link" href="contact.html">Contact</a>
     </li>
   </ul>
   </div>
 </nav>
 
+
+
+<!--BODY-->
+
 <body>
 
+  <!--PHOTO JUMBOTRON-->
 
-
-  <!--Jumbotron-->
-
-  <div class="card bg-dark text-white">
-    <img src="images/deadsea.jpg" class="card-img" alt="sea" height="900">
+  <div class="card bg-dark text-white" style="border: none">
+    <img src="images/deadsea.jpg" class="card-img" alt="sea" height="700" style="border: none">
     <div class="card-img-overlay">
       <br><br><br> <br><br><br> <br><br><br> <br><br><br> <br><br><br> <br><br><br>
       <h1 class="display-3">Hi, I'm Danielle Neubauer</h1>
@@ -49,19 +54,27 @@
     </div>
   </div>
 
-  <br> <br> <br> <br> <br> <br>
+  <br> <br> <br>  
 
   <!--card-->
 
   <div class="container">
     <div class="card mb-2" style="max-width: 1500px;">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <div class="jumbotron jumbotron-fluid" style="margin-bottom: 0">
+            <div class="container">
+              <h1 class="display-4">About Me</h1>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="row no-gutters ">
         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
           <img src="images/dn.jpg" class="card-img rounded-circle" alt="me" width="500">
         </div>
         <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
           <div class="card-body">
-            <h5 class="card-title">About Me</h5>
             <p class="card-text">I’m Danielle Neubauer - Bay Area implant, Israeli born & Tel Avivian at heart. Born to
               a family of farmers,
               my
@@ -89,7 +102,9 @@
 
   <br><br><br><br><br><br>
 
-  <div class="card bg-dark text-white">
+  <!--PHOTO -->
+
+  <div class="card bg-dark text-white" style="border: none">
     <img src="images/deadsearightside.jpg" class="card-img" alt="sea" height="900">
     <div class="card-img-overlay">
       <br><br><br> <br><br><br> <br><br><br> <br><br><br> <br><br><br>
@@ -104,25 +119,36 @@
 
 
 
-  <div class="container">
-    <div class="row">
-      <div class="bg-light text-white">
-        <div class="col-lg-12">
-          <img src="images/social media/facebook.png" class="rounded-circle" alt="me" width="70" height="70">
-
-          <img src="images/social media/instagram.jpg" class="rounded-circle" alt="me" width="120" height="120">
-
-          <img src="images/social media/linkedin.png" class="rounded-circle" alt="me" width="70" height="70">
-        </div>
-
-      </div>
-    </div>
-    <div class="row">
+<div class="container">
+  <div class="row" style="justify-content: center">
+    <div class="bg-light text-white">
       <div class="col-lg-12">
-        <a>Copyright</a>
+        <span>
+          <img src="images/social media/facebook.png" class="rounded-circle" alt="me" width="70" height="70">
+          <button class="btn" href="https://www.facebook.com/dan.neu.55" style="background-color: white"></button>
+        </span>
+        <span>
+          <img src="images/social media/instagram.jpg" href="https://www.instagram.com/danzln/" class="rounded-circle"
+            alt="me" width="120" height="120">
+          <button class="btn" id="insta" style="background-color: white"></button>
+        </span>
+        <span>
+          <img src="images/social media/linkedin.png" href="https://www.linkedin.com/in/danielle-neubauer-681705186/"
+            class="rounded-circle" alt="me" width="70" height="70">
+          <button class="btn" href="https://www.linkedin.com/in/danielle-neubauer-681705186/"
+            style="background-color: white"></button>
+        </span>
       </div>
     </div>
   </div>
+  <div class="row" style="justify-content: center">
+    <div>
+      <div class="col-lg-12">
+        <a class="copyright">Copyright ©</a>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 
